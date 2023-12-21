@@ -22,12 +22,13 @@ import { List } from "./components/generics/List";
 import { RandomNumber } from "./components/restrictions/RestrictionNumber";
 import { Toast } from "./components/templateLiterals/Toast";
 import { CustomButton } from "./components/html/Button";
+import { Text } from "./components/polymorphic/Text";
 
 function App() {
-  const fullName = {
-    first: "Ahmed",
-    last: "Ail",
-  };
+  // const fullName = {
+  //   first: "Ahmed",
+  //   last: "Ail",
+  // };
   return (
     <div className="App">
       {/* <Greet name="mohamed" messageCount={3} />
@@ -81,9 +82,19 @@ function App() {
 
       {/* <Toast position="center" /> */}
 
-      <CustomButton variant="primary" onClick={() => console.log("clicked")}>
+      {/* <CustomButton variant="primary" onClick={() => console.log("clicked")}>
         click here
-      </CustomButton>
+      </CustomButton> */}
+
+      <Text as="h2" size="lg">
+        hello world
+      </Text>
+      <Text as="p" size="md">
+        hello world
+      </Text>
+      <Text as="label" size="sm" color="primary">
+        hello world
+      </Text>
     </div>
   );
 }
