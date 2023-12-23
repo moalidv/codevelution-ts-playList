@@ -29,6 +29,7 @@ function App() {
   //   first: "Ahmed",
   //   last: "Ail",
   // };
+
   return (
     <div className="App">
       {/* <Greet name="mohamed" messageCount={3} />
@@ -39,11 +40,13 @@ function App() {
           { first: "mohamed", last: "ali" },
         ]}
       /> */}
+
       {/* <Status status="loading" />
       <Heading>Placeholder text</Heading>
       <Oscar>
         <Heading>Oscar goes to mohamed ali</Heading>
       </Oscar> */}
+
       {/* <Button
         handleClick={(event, id) => console.log("button clicked", event, id)}
       />
@@ -57,11 +60,14 @@ function App() {
       {/* <ThemeContextProvider>
         <Box />
       </ThemeContextProvider> */}
+
       {/* <UserContextProvider>
         <User />
       </UserContextProvider> */}
       {/* <Counter message="the count is" /> */}
-      {/* <Private isLoggedIn={false} component={Profile} /> */}
+
+      {/* <Private isLoggedIn={true} component={Profile} /> */}
+
       {/* <List
         items={[1, "palastine", "Egypt"]}
         onClick={(item) => console.log(item)}
@@ -86,7 +92,7 @@ function App() {
         click here
       </CustomButton> */}
 
-      <Text as="h2" size="lg">
+      {/* <Text as="h2" size="lg">
         hello world
       </Text>
       <Text as="p" size="md">
@@ -94,7 +100,7 @@ function App() {
       </Text>
       <Text as="label" size="sm" color="primary">
         hello world
-      </Text>
+      </Text> */}
     </div>
   );
 }
